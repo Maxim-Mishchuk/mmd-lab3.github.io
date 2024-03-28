@@ -1,0 +1,185 @@
+body {
+    background-color: #d0d0d0;
+    font-family: Tahoma, sans-serif;
+}
+
+main {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    padding: 1em;
+    margin-top: 1.5em;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #FF9638;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    color: #FF9638;
+}
+
+p {
+    text-align: justify;
+}
+
+article {
+    background-color: #292929;
+}
+
+article section {
+    margin: 0;
+    justify-content: center;
+}
+
+article {
+    color: white;
+}
+
+article section .col {
+    border-radius: 20px;
+    padding: 1.5em 3.5em;
+    margin: 0 1.5em;
+    background-color: #212121;
+    border: 1px solid #1e1e1e;
+}
+
+article figure {
+    padding: 0;
+    max-width: 40px;
+    min-height: 60px;
+    margin: 5px auto;
+}
+
+article figure img {
+    border-radius: 5px;
+}
+
+article section .col:first-child {
+    margin-left: 0;
+}
+
+article section .col:last-child {
+    margin-right: 0;
+}
+
+article section .col span {
+    display: block;
+}
+
+.upper-span {
+    color: white;
+    font-size: 0.5em;
+    display: block;
+}
+
+.lower-p {
+    font-size: 14px;
+    color: #308DDF;
+    text-align: center;
+
+}
+
+#gallery {
+    background-color: #3298F2;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    padding: 0 1em;
+}
+
+figure:first-child {
+    padding-left: 0;
+}
+
+figure:last-child {
+    padding-right: 0;
+}
+
+.right-content {
+    flex: 5%;
+    align-content: center;
+    justify-content: right;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.content {
+    background:
+            linear-gradient(to right, #3298F2 4px, transparent 4px) 0 0,
+            linear-gradient(to bottom, #3298F2 4px, transparent 4px) 0 0,
+            linear-gradient(to left, #FF9638 4px, transparent 4px) 100% 100%,
+            linear-gradient(to top, #FF9638 4px, transparent 4px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+    margin: 20px 100px;
+}
+
+.right p {
+    padding: 1.5em 20px;
+
+}
+
+.footer {
+    background-color: #FF9638;
+    justify-content: space-around;
+}
+
+.footer .col {
+    padding: 1em;
+}
+
+.footer .col:first-child {
+    background:
+            linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+            linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+            linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+            linear-gradient(to top, black 4px, transparent 4px) 0 100%;
+
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.footer .col:last-child {
+    margin-top: 20px;
+}
+
+.footer h2 {
+    text-align: left;
+    color: white;
+}
